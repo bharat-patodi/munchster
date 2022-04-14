@@ -9,7 +9,7 @@ client.on('ready', function(e) {
 
 client.on('message', (msg) => {
     console.log(msg);
-    if (msg.content === "Hello munchster") {
+    if (msg.content.includes("hello") && msg.content.includes("munchster")) {
         msg.reply("munch, munch, munch...");
     }
 });
