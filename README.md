@@ -1,5 +1,6 @@
 # munchster
 An open-source Discord bot
 
-## Uses
-- Discord.js
+## Utility
+- Teach new joinees about the channel
+- Teach new joinees about Discord
